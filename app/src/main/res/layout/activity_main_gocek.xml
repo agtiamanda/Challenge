@@ -341,37 +341,21 @@
                         android:text="Restoran terdekat"
                         android:layout_marginLeft="10dp"/>
 
+
+
                 </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/gojek_tokped"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/birushape"/>
 
 
 
             </LinearLayout>
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp">
-
-                <ImageView
-                    android:id="@+id/cashback"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/gocek_cashbac"
-                    android:layout_marginTop="20dp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:ignore="MissingConstraints" />
-
-                <ImageView
-                    android:id="@+id/tokped"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:src="@drawable/cantikfest"
-                    app:layout_constraintLeft_toRightOf="@id/cashback"
-                    tools:ignore="MissingConstraints" />
-
-
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <LinearLayout
                 android:id="@+id/diskon"
@@ -483,14 +467,6 @@ dengan cashback 50%. Klik!"/>
 
 
             </LinearLayout>
-
-
-
-
-
-
-
-
 
 
 
