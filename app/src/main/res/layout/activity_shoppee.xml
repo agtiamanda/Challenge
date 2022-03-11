@@ -20,7 +20,7 @@
                 android:id="@+id/cari"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Celana Olahraga Pria Pendek"
+                android:text="@string/edit_text"
                 android:drawableLeft="@drawable/ic_baseline_search_24"
                 android:drawableRight="@drawable/ic_baseline_camera_alt_24"
                 app:layout_constraintStart_toStartOf="parent"
@@ -94,13 +94,13 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rp 16.000"
+                    android:text="@string/rupiah"
                     android:textStyle="bold"
                     android:drawableLeft="@drawable/ic_baseline_account_balance_wallet_24"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Isi saldo Shoppeepay"/>
+                    android:text="@string/saldo"/>
 
             </LinearLayout>
 
@@ -116,7 +116,7 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5 Koin"
+                    android:text="@string/koin"
                     android:textStyle="bold"
                     android:drawableLeft="@drawable/ic_baseline_attach_money_24"/>
                 <TextView
@@ -173,7 +173,7 @@
                             android:layout_marginLeft="20dp"/>
 
                         <TextView
-                            android:text="Peduli Lindungi"
+                            android:text="@string/peduli"
                             android:textSize="12sp"/>
                         <TextView
                             android:text="@string/pulsa"
@@ -181,12 +181,12 @@
                             android:textAlignment="center"
                             android:layout_marginLeft="5dp"/>
                         <TextView
-                            android:text="Shoppee\nSupermarket"
+                            android:text="@string/ssopisupermarket"
                             android:textSize="12sp"
                             android:textAlignment="center"
                             android:layout_marginLeft="5dp"/>
                         <TextView
-                            android:text="Shoppee Mall"
+                            android:text="@string/sopi_mol"
                             android:textSize="12sp"
                             android:layout_marginLeft="5dp"/>
 
@@ -220,15 +220,15 @@
                             android:textAlignment="center"
                             android:textSize="12sp"/>
                         <TextView
-                            android:text="Shoppee Games"
+                            android:text="@string/shoppee_games"
                             android:layout_marginLeft="5dp"
                             android:textSize="12sp"/>
                         <TextView
-                            android:text="Bayar Di Tempat"
+                            android:text="@string/ikon_cod"
                             android:textSize="12sp"
                             android:layout_marginLeft="5dp"/>
                         <TextView
-                            android:text="ShoppeeFood"
+                            android:text="@string/ikon_sopifud"
                             android:textSize="12sp"
                             android:layout_margin="5dp"/>
 
@@ -256,8 +256,35 @@
                         <ImageButton
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/ic_baseline_arrow_upward_24"/>
+                            android:layout_marginTop="40dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/flash"/>
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="8dp"
+                            android:src="@drawable/ic_time"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lihat_lainnya"
+                            android:textColor="@color/grey"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="10dp"/>
+                        <ImageButton
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+                    </LinearLayout>
+
 
 
 
@@ -282,7 +309,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="62.500"
+                                    android:text="@string/sopipey"
                                     android:textColor="@color/red"
                                     android:textStyle="bold"
                                     android:fontFamily="sans-serif-medium"/>
@@ -304,7 +331,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="62.500"
+                                    android:text="@string/sopipey"
                                     android:textColor="@color/red"
                                     android:textStyle="bold"
                                     android:fontFamily="sans-serif-medium"/>
@@ -325,7 +352,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="62.500"
+                                    android:text="@string/sopipey"
                                     android:textColor="@color/red"
                                     android:textStyle="bold"
                                     android:fontFamily="sans-serif-medium"/>
@@ -347,7 +374,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="62.500"
+                                    android:text="@string/sopipey"
                                     android:textColor="@color/red"
                                     android:textStyle="bold"
                                     android:fontFamily="sans-serif-medium"/>
@@ -368,7 +395,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="62.500"
+                                    android:text="@string/sopipey"
                                     android:textColor="@color/red"
                                     android:textStyle="bold"
                                     android:fontFamily="sans-serif-medium"/>
@@ -390,7 +417,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="62.500"
+                                    android:text="@string/sopipey"
                                     android:textColor="@color/red"
                                     android:textStyle="bold"
                                     android:fontFamily="sans-serif-medium"/>
@@ -399,6 +426,10 @@
                                     android:layout_height="50dp"
                                     android:progress="8"
                                     style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_baseline_keyboard_arrow_right_24"/>
                             </LinearLayout>
 
 
@@ -454,30 +485,30 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rekomendasi"
+                android:text="@string/ikon_rekomendasi"
                 android:textSize="15sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Feed"
+                android:text="@string/ikon_feed"
                 android:textSize="15sp"
                 android:layout_marginLeft="10dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Shoppee Live"
+                android:text="@string/ikon_live"
                 android:textSize="15sp"
                 android:layout_marginLeft="10dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Notifikasi"
+                android:text="@string/ikon_notifikasi"
                 android:textSize="15sp"
                 android:layout_marginLeft="10dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Saya"
+                android:text="@string/ikon_saya"
                 android:textSize="15sp"
                 android:layout_marginLeft="10dp"/>
 
