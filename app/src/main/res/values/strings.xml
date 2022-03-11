@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Challenge</string>
+    <string name="pulsa"><![CDATA[Pulsa,Tagihan&\nHiburan]]></string>
+    <string name="vocer"><![CDATA[Gratis Ongkir &\n Voucher]]></string>
+    <string name="kebutuhan">Temukan kebutuhan cantik-mu hemat pakai Go-pay\n dengan cashback 50%. Klik!</string>
 </resources>
